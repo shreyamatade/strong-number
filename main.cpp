@@ -20,6 +20,8 @@ int main()
    int temp=no;
 
    int nd=floor(log10(no))+1; int sum=0; int fss;
+     /* NOTE: here instead of log use to_string to find no of digits in integer*/
+
 
    for(int i=0;i<nd;i++)
    {
